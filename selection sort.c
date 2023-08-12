@@ -11,7 +11,7 @@ int main()
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
 
-  for (c = 0; c < (n - 1); c++) 
+  for (c = 0; c < (n - 1); c++) // finding minimum element (n-1) times
   {
     position = c;
 
@@ -35,5 +35,3 @@ int main()
 
   return 0;
 }
-
-
